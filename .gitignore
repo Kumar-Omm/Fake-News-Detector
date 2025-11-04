@@ -2,21 +2,18 @@
 venv/
 .env/
 
-# Model checkpoints (keep final_model only)
+# Model checkpoints and large weights
+models/final_model/
 models/saved_model/
-!models/final_model/
+*.bin
+*.pt
+*.safetensors
 
-# Python cache
+# Cache and logs
 __pycache__/
 *.pyc
-
-# Logs and artifacts
 *.log
 *.png
 runs/
-*.pt
-*.bin
-
-# OS files
 .DS_Store
 Thumbs.db
