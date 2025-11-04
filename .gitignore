@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.env/
+
+# Model checkpoints (keep final_model only)
+models/saved_model/
+!models/final_model/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and artifacts
+*.log
+*.png
+runs/
+*.pt
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db

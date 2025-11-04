@@ -1,0 +1,20 @@
+# Core ML + NLP
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers
+sentencepiece
+scikit-learn
+pandas
+numpy
+matplotlib
+datasets
+
+
+# Web scraping & news processing
+newspaper3k
+requests
+beautifulsoup4
+validators
+google-search-results  # SerpAPI for cross-checking web authenticity
+
+# App / UI
+streamlit
